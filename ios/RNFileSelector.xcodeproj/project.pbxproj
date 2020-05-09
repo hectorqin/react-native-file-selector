@@ -84,7 +84,7 @@
 				134814211AA4EA7D00B7C361 /* Products */,
 				CE569A9020403969005B5ACC /* Frameworks */,
 				6EE51A2FE94F687D07C4BA7A /* Pods */,
-				60957D982260C89E0022180E /* RNFileSelector-Bridging-Header.h */,
+				65B1DA22226F61570079466B /* RNFileSelector-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
