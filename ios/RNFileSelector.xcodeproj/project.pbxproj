@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20C41E8CBEA1F2682B6B28B4 /* libPods-RNFileSelector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 986AED0B9FDDE92BD4A4A269 /* libPods-RNFileSelector.a */; };
 		60957D9A2260C89E0022180E /* demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60957D992260C89E0022180E /* demo.swift */; };
-		81A297F4FE4B7837D66616E8 /* Pods_RNFileSelector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8AE4589AE9EAE28E8C0C60 /* Pods_RNFileSelector.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNFileSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNFileSelector.m */; };
 		CE4052362144E03300F995AA /* FileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4052332144E02B00F995AA /* FileBrowser.framework */; };
 /* End PBXBuildFile section */
@@ -45,13 +45,12 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNFileSelector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNFileSelector.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA737E0FFBB40D2ECF9C736 /* Pods-RNFileSelector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFileSelector.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNFileSelector/Pods-RNFileSelector.release.xcconfig"; sourceTree = "<group>"; };
-		60957D982260C89E0022180E /* RNFileSelector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNFileSelector-Bridging-Header.h"; sourceTree = "<group>"; };
 		60957D992260C89E0022180E /* demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo.swift; sourceTree = "<group>"; };
+		986AED0B9FDDE92BD4A4A269 /* libPods-RNFileSelector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFileSelector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73D196C67F67BCCD9F439C8 /* Pods-RNFileSelector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFileSelector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNFileSelector/Pods-RNFileSelector.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNFileSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFileSelector.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNFileSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFileSelector.m; sourceTree = "<group>"; };
 		CE40522D2144E02B00F995AA /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
-		CE8AE4589AE9EAE28E8C0C60 /* Pods_RNFileSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNFileSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4052362144E03300F995AA /* FileBrowser.framework in Frameworks */,
-				81A297F4FE4B7837D66616E8 /* Pods_RNFileSelector.framework in Frameworks */,
+				20C41E8CBEA1F2682B6B28B4 /* libPods-RNFileSelector.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +83,6 @@
 				134814211AA4EA7D00B7C361 /* Products */,
 				CE569A9020403969005B5ACC /* Frameworks */,
 				6EE51A2FE94F687D07C4BA7A /* Pods */,
-				65B1DA22226F61570079466B /* RNFileSelector-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				CE40522D2144E02B00F995AA /* Pods.xcodeproj */,
-				CE8AE4589AE9EAE28E8C0C60 /* Pods_RNFileSelector.framework */,
+				986AED0B9FDDE92BD4A4A269 /* libPods-RNFileSelector.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

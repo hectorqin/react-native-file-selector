@@ -1,6 +1,8 @@
 
 #import "RNFileSelector.h"
 
+#import <FileBrowser/FileBrowser-Swift.h>
+
 @implementation RNFileSelector
 
 @synthesize bridge = _bridge;
@@ -45,4 +47,3 @@ RCT_EXPORT_METHOD(Show:(nonnull NSDictionary *)props onDone:(RCTResponseSenderBl
 }
 
 @end
-  

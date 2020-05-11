@@ -2,20 +2,21 @@ PODS:
   - FileBrowser (1.0.0)
 
 DEPENDENCIES:
-  - FileBrowser (from `https://github.com/prscX/FileBrowser`)
+  - FileBrowser (from `https://github.com/crutchcorn/FileBrowser.git`, branch `master`)
 
 EXTERNAL SOURCES:
   FileBrowser:
-    :git: https://github.com/prscX/FileBrowser
+    :branch: master
+    :git: https://github.com/crutchcorn/FileBrowser.git
 
 CHECKOUT OPTIONS:
   FileBrowser:
-    :commit: d36e59991f81618fc3f2a80650bc4ef1df57b6df
-    :git: https://github.com/prscX/FileBrowser
+    :commit: 96845a0d8c40af4ae7aecec8bf17e924a05ed64d
+    :git: https://github.com/crutchcorn/FileBrowser.git
 
 SPEC CHECKSUMS:
-  FileBrowser: 42fe0e5dbb9602f13c6f7f742f4a4193b018eafd
+  FileBrowser: 4d09b8037bc4a8cd7f36eb9bce726dcc6d11a148
 
-PODFILE CHECKSUM: e661a6f7762e7314b2c05b56a53d6b866b21ccfc
+PODFILE CHECKSUM: 618117f6b749bb94b4c037cc77ecd061c0a20cde
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.1
