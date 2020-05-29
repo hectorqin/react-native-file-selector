@@ -1,5 +1,5 @@
 {
-    "name": "react-native-file-selector",
+    "name": "react-native-file-folder-selector",
     "version": "1.0.0",
     "description": "React Native: Native File Selector",
     "main": "RNFileSelector.js",
@@ -11,10 +11,10 @@
     ],
     "author": "Pranav Raj Singh Chauhan",
     "license": "Apache License",
-    "homepage": "https://github.com/prscX/react-native-file-selector.git",
+    "homepage": "https://github.com/wangfpp/react-native-file-selector",
     "repository": {
         "type": "git",
-        "url": "https://github.com/prscX/react-native-file-selector.git"
+        "url": "https://github.com/wangfpp/react-native-file-selector"
     },
     "dependencies": {},
     "devDependencies": {

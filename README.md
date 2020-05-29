@@ -8,7 +8,7 @@
   <a href="https://github.com/prscX/react-native-file-selector#License"><img src="https://img.shields.io/npm/l/react-native-file-selector.svg?style=flat" /></a>
 </p>
 
-    ReactNative: Native File Selector (Android/iOS)
+    ReactNative: Native File And Folder Selector (Android/iOS)
 
 If this project has helped you out, please support us with a star 🌟
 </h1>
@@ -183,7 +183,9 @@ RNFileSelector.Show(
 | ----------------- | ---------- | ------- | ---------------------------------------------------------------------------------------------------------- |
 | `title`       | `string`     |         | Title on the toolbar
 | `closeMenu`      | `string`     |   true      | Color of tint
-| `hiddenFiles: Android`       | `bool`     |  false       | If true it shows hidden files as well                                                            |
+| `hiddenFiles: Android`       | `bool`     |  false       | If true it shows hidden files as 
+| `chooseFolderMode` | `bool` | false | 是否是选择文件夹模式
+well                                                            |
 | `path` | `string` |         | Path of directory                                                   |  |
 | `filter`    | `string`     |         | Filter to sort the files                                        |  |
 | `filterDirectories: Android`      | `bool`     |         | Filter should be applied on directories or not 

@@ -49,7 +49,6 @@ public class RNFileSelectorModule extends ReactContextBaseJavaModule {
     }
   }
 
-
   private boolean checkPermissionsAndOpenFilePicker() {
     String permission = Manifest.permission.READ_EXTERNAL_STORAGE;
 
@@ -58,7 +57,7 @@ public class RNFileSelectorModule extends ReactContextBaseJavaModule {
         showError();
         return false;
       } else {
-        ActivityCompat.requestPermissions(getCurrentActivity(), new String[]{permission}, PERMISSIONS_REQUEST_CODE);
+        ActivityCompat.requestPermissions(getCurrentActivity(), new String[] { permission }, PERMISSIONS_REQUEST_CODE);
         return true;
       }
     }
@@ -69,7 +68,6 @@ public class RNFileSelectorModule extends ReactContextBaseJavaModule {
   private void showError() {
     Toast.makeText(getCurrentActivity(), "Allow external storage reading", Toast.LENGTH_SHORT).show();
   }
-
 
   private void openFilePicker(final ReadableMap props, final Callback onDone, final Callback onCancel) {
     MaterialFilePicker picker = new MaterialFilePicker();
@@ -89,7 +87,9 @@ public class RNFileSelectorModule extends ReactContextBaseJavaModule {
     }
 
     picker = picker.withFilterDirectories(filterDirectories);
-    picker = picker.withChooseFolderMode(chooseFolderMode);
+    if (chooseFolderMode) {
+      picker = picker.withChooseFolderMode(chooseFolderMode);
+    }
 
     if (path.length() > 0) {
       picker = picker.withRootPath(path);
