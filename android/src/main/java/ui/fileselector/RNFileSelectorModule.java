@@ -96,7 +96,9 @@ public class RNFileSelectorModule extends ReactContextBaseJavaModule {
     }
 
     picker = picker.withHiddenFiles(hiddenFiles);
-    picker = picker.withCloseMenu(closeMenu);
+    if (chooseFolderMode) {
+      picker = picker.withChooseFolderMode(chooseFolderMode);
+    }
 
     picker = picker.withTitle(title);
 
