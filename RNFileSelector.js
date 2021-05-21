@@ -23,6 +23,7 @@ class FileSelector extends PureComponent {
   static defaultProps = {
     visible: false,
 
+    chooseFolderMode: false,
     filterDirectories: false,
     path: '',
     hiddenFiles: false,
@@ -46,6 +47,8 @@ class FileSelector extends PureComponent {
         props.title = FileSelector.defaultProps.title
     } if (props.editable === undefined) {
         props.editable = FileSelector.defaultProps.editable
+    } if (props.chooseFolderMode === undefined) {
+        props.chooseFolderMode = FileSelector.defaultProps.chooseFolderMode
     }
 
     if (props.filter === undefined) {
@@ -77,6 +80,7 @@ class FileSelector extends PureComponent {
         filter: this.props.filter,
         filterDirectories: this.props.filterDirectories,
         path: this.props.path,
+        chooseFolderMode: this.props.chooseFolderMode,
         hiddenFiles: this.props.hiddenFiles,
         closeMenu: this.props.closeMenu,
         title: this.props.title,
